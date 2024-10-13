@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY FIRST WEBPAGE</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo">Martin Marks' Website</div>
+        <ul>
+          <li><a href="index.html">HOMEPAGE</a></li>
+          <li><a href="aboutme.html">ABOUT</a></li>
+          <li><a href="reusme.html">RESUME</a></li>
+          <li><a href="contactme.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1
+      style="
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: cadetblue;
+        font-weight: 300;
+      "
+    >
+      Contact Me
+    </h1>
+    <article id="contactme"></article>
+    <p>Please feel free to write any questions, comments, or concerns!</p>
+    <form action="https://httpbin.org/get" method="get">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Jane Doe" />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="123@gmail.com"
+        />
+        <br />
+        <br />
+        <label for="message" style="align-items: center">Your Message:</label>
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="15"
+          placeholder="Please enter your message here....."
+          style="align-content: center"
+        ></textarea>
+        <br />
+        <button type="submit" style="align-self: center">Submit</button>
+      </p>
+      <p>
+        Pressing question? Want to contact me asap? Email me<a
+          href="mailto:martinimarks@gmail.com"
+        >
+          here.</a
+        >
+      </p>
+    </form>
+  </body>
+</html>

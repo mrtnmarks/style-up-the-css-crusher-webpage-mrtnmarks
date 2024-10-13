@@ -1,0 +1,61 @@
+* {
+    text-decoration: none;
+  }
+  .navbar {
+    background: rgb(79, 118, 168);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 0;
+  }
+  .navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600px;
+    color: antiquewhite;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  li a {
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: cadetblue;
+    font-weight: 300;
+  }
+  h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: cadetblue;
+    font-weight: 100;
+    text-decoration: underline;
+  }
+  h3, p, li, ul{
+    text-align: center;
+    color: rgb(8, 8, 12);
+  }
+  ul.dash{
+    list-style-type: none;
+  }
+  ul.dash > li{
+    text-indent: -1px;
+  }
+  ul.dash > li:before {
+    content: "-";
+    text-indent: -1px;
+  }
+  body{
+    background-color: rgb(252, 243, 230)
+  }
